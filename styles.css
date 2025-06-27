@@ -142,13 +142,13 @@ td {
 
 @media (max-width: 500px) {
   body {
-    padding: 0 auto;
+    padding: 0;
     background-color: #fff;
     font-size: 16px;
   }
 
   .main-container {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     border-radius: 0;
     padding: 0 auto ;
@@ -166,22 +166,22 @@ td {
   }
 
   .page-heading {
-    font-size: 250%;
+    font-size: 200%;
     line-height: 1;
   }
 
  h2 {
-   font-size: 200;
+   font-size: 150;
  }
 
  h4 {
-   font-size: 150%;
+   font-size: 120%;
   }
   
   p,
   li,
   td {
-    font-size: 120%;
+    font-size: 100%;
     margin-bottom: 15px;
     font-weight: 500;
   }
