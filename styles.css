@@ -40,10 +40,11 @@ body {
 }
 
 .page-heading {
-  font-size: 220%;
+  font-family: "Young Serif", serif;
+  font-size: 320%;
   font-weight: 400;
-  font-family: " Young Serif", serif;
-  color: hsla(15, 4%, 18%, 0.884);
+  margin: 20px 0;
+  width: 100%;
 }
 
 div,
@@ -54,9 +55,9 @@ article {
 
 p,
 li {
-  font-size: 110%;
+  font-size: 120%;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 li {
@@ -83,16 +84,8 @@ table {
   box-sizing: border-box;
   margin-left: 20px;
 }
-.page-heading {
-  font-family: "Young Serif", serif;
-  font-size: 3.5rem;
-  font-weight: 400;
-  margin: 20px 0;
-  width: 100%;
-}
 
 .prep-time {
-  font-size: 100%;
   font-weight: 600;
   color: hsl(28, 10%, 39%);
   margin-bottom: 20px;
@@ -116,7 +109,6 @@ h4 {
 
 .li-title {
   color: hsla(15, 4%, 18%, 0.884);
-  font-size: 100%;
   font-weight: 600;
 }
 
@@ -131,10 +123,11 @@ h4 {
 table {
   width: 100%;
   margin: 0;
+  border-collapse: collapse;
 }
 
 td {
-  font-size: 110%;
+  font-size: 120%;
   padding: 20px 0 20px 40px;
   font-weight: 600;
   color: hsla(28, 10%, 39%, 0.904);
@@ -180,6 +173,14 @@ td {
   .page-heading {
     font-size: 230%;
     line-height: 1;
+  }
+
+  p,
+  li,
+  td {
+    font-size: 100%;
+    margin-bottom: 15px;
+    font-weight: 500;
   }
 
   .prep-time {
