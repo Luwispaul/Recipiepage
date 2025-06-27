@@ -142,48 +142,44 @@ td {
 
 @media (max-width: 500px) {
   body {
-    padding: 0;
+    padding: 0 auto;
     background-color: #fff;
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .main-container {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     border-radius: 0;
-    padding: 0;
+    padding: 0 auto ;
   }
 
   .food-img {
     width: 100%;
-    height: 40%;
+    height: auto;
     border-radius: 0;
     margin-bottom: 0;
   }
 
   .second-cont {
-    padding: 20px;
+    padding: 30px;
   }
 
   .page-heading {
-    font-size: 200%;
+    font-size: 250%;
     line-height: 1;
-  }
-
-  h2{
-    font-size: 150%;
   }
 
   p,
   li,
   td {
-    font-size: 100%;
+    font-size: 110%;
     margin-bottom: 15px;
     font-weight: 500;
   }
 
   .prep-time {
-    padding: 20px 10px 10px 10px;
+    padding: 20px 30px 20px 30px;
     margin-bottom: 20px;
   }
 
