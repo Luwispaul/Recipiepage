@@ -67,7 +67,7 @@ li {
 p,
 .li-text {
   font-family: "outfit", sans-serif;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   color: hsla(28, 10%, 39%, 0.904);
 }
 
